@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cvmghbqk42qwm"]
+
+[ext_resource type="Texture2D" uid="uid://b3aico1k3s2bl" path="res://icon.svg" id="1_dqtl5"]
+[ext_resource type="Script" uid="uid://bn80etva8up80" path="res://sprite_2d.gd" id="2_5i41l"]
+
+[node name="NodeThucHanh" type="Node2D" unique_id=1506422658]
+scale = Vector2(1.1553714, 0.9068375)
+script = ExtResource("2_5i41l")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1153683446]
+position = Vector2(501.1375, 281.19702)
+scale = Vector2(3.4046798, 3.1154048)
+texture = ExtResource("1_dqtl5")
+script = ExtResource("2_5i41l")
+
+[node name="Label" type="Label" parent="." unique_id=1550415078]
+offset_right = 40.0
+offset_bottom = 23.0
