@@ -1,7 +1,6 @@
 extends Sprite2D
 var velocity = 10
-func _ready():
-	print("Tree đã sẵn sàng Scene Tree")
+
 var label_node: Label
 var start_x: float
 
